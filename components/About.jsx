@@ -13,7 +13,7 @@ const About = () => {
                       development(HTML, CSS, JavaScript and ReactJS) and MySQL. Currently I am pursuing B. Tech in Computer 
                       Science with a average CGPA of 9.155 till now. I am a fast learner and an active listener. I can learn 
                       and implement new technologies as and when it is needed. I am aiming to enhance my skills in the 
-                      field of Full Stack Web development by contributing to the tech industry.
+                      field of Full Stack Web development by contributing to the tech industry. 
                     </p>
                 </div>
             </div>

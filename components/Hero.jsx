@@ -27,15 +27,7 @@ const Hero = () => {
                 My name is Souvik Bid. I am currently studying B.Tech 4th year of Techno International Batanagar. I am aspiring to 
                 be a Web Developer.
             </p>
-            <div className='my-8'>
-                <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-red-600 text-white'>
-                    Download CV
-                </a>
-                <a href='#contact' className='px-6 py-3 w-full rounded-xl mr-4 
-                    border border-x-gray-400 hover:bg-gradient-to-br from-orange-500 to-red-600 text-white hover:border-none'>
-                    Contact
-                </a>
-            </div>
+            
         </div>
     </div>
   )

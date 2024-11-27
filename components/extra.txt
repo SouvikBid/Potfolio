@@ -13,7 +13,7 @@ const [nav, setNav] = useState(false)
 
 
 
-
+method='POST'
 
 
 
@@ -34,4 +34,18 @@ const [nav, setNav] = useState(false)
         <li className='p-2'><a href='#about'>About</a></li>                
         <li className='p-2'><a href='#work'>Contact</a></li>
     </ul>
+</div>
+
+
+
+
+Hero.txt 
+<div className='my-8'>
+                <a href='/' className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-red-600 text-white'>
+                    Download CV
+                </a>
+                <a href='#contact' className='px-6 py-3 w-full rounded-xl mr-4 
+                    border border-x-gray-400 hover:bg-gradient-to-br from-orange-500 to-red-600 text-white hover:border-none'>
+                    Contact
+                </a>
 </div>

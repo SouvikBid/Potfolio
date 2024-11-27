@@ -10,22 +10,22 @@ const Contact = () => {
         <div className='max-w-[800px] mx-auto'>
             <div className='mt-6 bg-[#161616] rounded-xl'>
                 <div className='p-10'>
-                    <form action="souvikbid767@gmail.com" method='POST'>
+                    <form id="myForm">
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4 '>
                             <div className='mt-2.5 relative'>
-                                <input type='text' name='name' id='' placeholder='Your Name'
+                                <input type='text' name='name' id='fullName' placeholder='Your Name'
                                     className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border
                                     border-gray-700 rounded-md focus:outline-none focus:border-r-red-600'/>
                             </div>
 
                             <div className='mt-2.5 relative'>
-                                <input type='email' name='email' id='' placeholder='Your Email'
+                                <input type='email' name='email' id='email' placeholder='Your Email'
                                     className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border
                                     border-gray-700 rounded-md focus:outline-none focus:border-r-red-600'/>
                             </div>
 
                             <div className='sm:col-span-2 mt-2.5 relative'>
-                                <textarea name='message' id='' placeholder='Your Message'
+                                <textarea name='message' id='message' placeholder='Your Message'
                                     className='bg-[#161616] w-full px-4 py-4 text-gray-400 placeholder-gray-400 border
                                     border-gray-700 rounded-md focus:outline-none focus:border-r-red-600' rows="4" >
                                 </textarea>
